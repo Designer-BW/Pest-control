@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Star Pest Control | Commercial, Residential &amp; Industrial Pest Control in Gaborone</title>
+  <meta name="description" content="Star Pest Control protects homes, businesses and industrial sites across Gaborone with safe, guaranteed pest control.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+
+  <!-- Fonts: Inter (headings) + Playfair Display (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5.3.8 + Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <link rel="preload" as="image" href="https://images.pexels.com/photos/19789837/pexels-photo-19789837.jpeg?auto=compress&cs=tinysrgb&w=1920">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__ring"><img src="assets/logo.png" alt="" width="64" height="62"></div>
+  </div>
+
+  <!-- ============ TOP BAR ============ -->
+  <div class="topbar d-none d-lg-block">
+    <div class="container d-flex justify-content-between align-items-center">
+      <ul class="topbar__info">
+        <li><i class="bi bi-geo-alt-fill"></i> Plot 4471, Commerce Park, Gaborone</li>
+        <li><i class="bi bi-envelope-fill"></i> <a href="#" onclick="return false">hello@starpest-demo.co.bw</a></li>
+        <li><i class="bi bi-clock-fill"></i> Mon – Sat: 07:00 – 18:00</li>
+      </ul>
+      <ul class="topbar__social">
+        <li><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a></li>
+        <li><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
+        <li><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
+        <li><a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand brand" href="#">
+          <img src="assets/logo.png" alt="Star Pest Control logo" width="58" height="56" class="brand__logo">
+          <span class="brand__text">Star<span>Pest Control</span></span>
+        </a>
+
+        <button class="navbar-toggler nav-burger" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav mx-auto main-menu">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item has-sub"><a class="nav-link" href="#">Services <i class="bi bi-chevron-down"></i></a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+          <div class="header-cta">
+            <span class="header-cta__icon"><i class="bi bi-telephone-fill"></i></span>
+            <div>
+              <small>24/7 Emergency Line</small>
+              <a href="#">+267 71 234 567</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO + QUOTE FORM ============ -->
+    <section class="hero" id="home">
+      <div class="hero__bg" style="background-image:url('https://images.pexels.com/photos/19789837/pexels-photo-19789837.jpeg?auto=compress&cs=tinysrgb&w=1920')"></div>
+      <div class="hero__overlay"></div>
+      <div class="hero__shape" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-lg-7">
+            <span class="eyebrow hero-anim" style="--d:.2s"><i class="bi bi-star-fill"></i> Gaborone's trusted pest experts</span>
+            <h1 class="hero__title hero-anim" style="--d:.35s">Pest-free spaces for <span class="text-highlight">homes, business</span> &amp; industry</h1>
+            <p class="hero__lead hero-anim" style="--d:.5s">Licensed technicians, eco-conscious treatments and a 90-day re-service guarantee. We find the source, treat it properly and keep it from coming back.</p>
+            <div class="hero__actions hero-anim" style="--d:.65s">
+              <a href="#" class="btn-star">Our Services <i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="btn-play" aria-label="Watch how we work">
+                <span class="btn-play__icon"><i class="bi bi-play-fill"></i></span>
+                <span>See how we work</span>
+              </a>
+            </div>
+            <ul class="hero__trust hero-anim" style="--d:.8s">
+              <li><i class="bi bi-patch-check-fill"></i> BOBS-compliant chemicals</li>
+              <li><i class="bi bi-shield-fill-check"></i> Fully insured</li>
+              <li><i class="bi bi-lightning-charge-fill"></i> Same-day call-outs</li>
+            </ul>
+          </div>
+
+          <div class="col-lg-5">
+            <form class="quote-card hero-anim" style="--d:.5s" id="quoteForm" novalidate>
+              <div class="quote-card__head">
+                <span class="quote-card__badge"><i class="bi bi-calculator"></i></span>
+                <div>
+                  <h2>Request a Free Quote</h2>
+                  <p>Reply within 30 minutes during office hours.</p>
+                </div>
+              </div>
+
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="qName" class="visually-hidden">Full name</label>
+                  <input type="text" class="form-control" id="qName" placeholder="Full name" required>
+                </div>
+                <div class="col-sm-6">
+                  <label for="qPhone" class="visually-hidden">Phone</label>
+                  <input type="tel" class="form-control" id="qPhone" placeholder="+267 7X XXX XXX" required>
+                </div>
+                <div class="col-12">
+                  <label for="qEmail" class="visually-hidden">Email</label>
+                  <input type="email" class="form-control" id="qEmail" placeholder="Email address" required>
+                </div>
+                <div class="col-sm-6">
+                  <label for="qProperty" class="visually-hidden">Property type</label>
+                  <select class="form-select" id="qProperty" required>
+                    <option value="" selected disabled>Property type</option>
+                    <option>Residential</option>
+                    <option>Commercial</option>
+                    <option>Industrial</option>
+                  </select>
+                </div>
+                <div class="col-sm-6">
+                  <label for="qPest" class="visually-hidden">Pest problem</label>
+                  <select class="form-select" id="qPest" required>
+                    <option value="" selected disabled>Pest problem</option>
+                    <option>Cockroaches</option>
+                    <option>Rodents</option>
+                    <option>Termites</option>
+                    <option>Bed bugs</option>
+                    <option>Ants</option>
+                    <option>Mosquitoes &amp; flies</option>
+                    <option>Wasps &amp; bees</option>
+                    <option>Fumigation</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="qArea" class="visually-hidden">Area in Gaborone</label>
+                  <select class="form-select" id="qArea">
+                    <option value="" selected disabled>Your area</option>
+                    <option>Gaborone CBD</option>
+                    <option>Phakalane</option>
+                    <option>Block 6 – 10</option>
+                    <option>Gaborone West</option>
+                    <option>Broadhurst</option>
+                    <option>Tlokweng</option>
+                    <option>Mogoditshane</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="qMsg" class="visually-hidden">Message</label>
+                  <textarea class="form-control" id="qMsg" rows="3" placeholder="Tell us a little about the problem…"></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn-star w-100 justify-content-center">Get My Free Quote <i class="bi bi-send-fill"></i></button>
+                </div>
+              </div>
+              <p class="quote-card__note"><i class="bi bi-lock-fill"></i> Your details stay private. Prototype form, so nothing is sent.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURE STRIP ============ -->
+    <section class="features">
+      <div class="container">
+        <div class="features__grid">
+          <article class="feature reveal" data-reveal="up">
+            <span class="feature__icon"><i class="bi bi-house-heart-fill"></i></span>
+            <div>
+              <h3>Residential</h3>
+              <p>Family and pet-safe treatments for houses, flats and complexes.</p>
+            </div>
+          </article>
+          <article class="feature feature--dark reveal" data-reveal="up" style="--d:.12s">
+            <span class="feature__icon"><i class="bi bi-buildings-fill"></i></span>
+            <div>
+              <h3>Commercial</h3>
+              <p>Discreet, scheduled service for offices, restaurants and retail.</p>
+            </div>
+          </article>
+          <article class="feature reveal" data-reveal="up" style="--d:.24s">
+            <span class="feature__icon"><i class="bi bi-gear-wide-connected"></i></span>
+            <div>
+              <h3>Industrial</h3>
+              <p>Audit-ready programmes for warehouses, plants and food processing.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="about section-pad cv">
+      <div class="container">
+        <div class="row align-items-center g-4 g-lg-5">
+          <div class="col-lg-6">
+            <div class="about__media reveal" data-reveal="left">
+              <img class="about__img about__img--main" src="https://images.pexels.com/photos/3951382/pexels-photo-3951382.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Technician in a yellow protective suit spraying treatment" loading="lazy" width="900" height="1100">
+              <img class="about__img about__img--small" src="https://images.pexels.com/photos/4176548/pexels-photo-4176548.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Technician treating an indoor plant" loading="lazy" width="600" height="600">
+              <div class="about__badge">
+                <svg viewBox="0 0 120 120" class="about__badge-ring" aria-hidden="true">
+                  <defs><path id="circlePath" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+                  <text><textPath href="#circlePath">STAR PEST CONTROL • GABORONE • SINCE 2012 • </textPath></text>
+                </svg>
+                <span class="about__badge-num">14<sup>+</sup></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="reveal" data-reveal="right">
+              <span class="eyebrow eyebrow--dark"><i class="bi bi-star-fill"></i> About Star Pest Control</span>
+              <h2 class="section-title">Fourteen years keeping Gaborone <span class="text-mark">pest-free</span></h2>
+              <p>Star Pest Control started in 2012 with a single bakkie and a commitment to doing the job properly. We now look after more than 3,000 homes, restaurants, schools, warehouses and mines across the greater Gaborone region.</p>
+
+              <div class="about__points">
+                <div class="about__point">
+                  <i class="bi bi-check2-circle"></i>
+                  <div><h4>Integrated Pest Management</h4><p>We inspect, treat and prevent, and use only as much chemical as the job needs.</p></div>
+                </div>
+                <div class="about__point">
+                  <i class="bi bi-check2-circle"></i>
+                  <div><h4>Certified technicians</h4><p>Trained, uniformed and background-checked staff.</p></div>
+                </div>
+              </div>
+
+              <div class="progress-list">
+                <div class="progress-item">
+                  <div class="progress-item__label"><span>Customer satisfaction</span><span class="progress-item__val">98%</span></div>
+                  <div class="progress-item__track"><span class="progress-item__bar" data-width="98"></span></div>
+                </div>
+                <div class="progress-item">
+                  <div class="progress-item__label"><span>First-visit resolution</span><span class="progress-item__val">92%</span></div>
+                  <div class="progress-item__track"><span class="progress-item__bar" data-width="92"></span></div>
+                </div>
+              </div>
+
+              <div class="about__foot">
+                <a href="#" class="btn-star">More About Us <i class="bi bi-arrow-right"></i></a>
+                <div class="about__sign">
+                  <span class="about__avatar">KM</span>
+                  <div><strong>Kagiso Molefe</strong><small>Founder &amp; CEO</small></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Cockroaches</span><i class="bi bi-star-fill"></i>
+        <span>Termites</span><i class="bi bi-star-fill"></i>
+        <span>Rodents</span><i class="bi bi-star-fill"></i>
+        <span>Bed Bugs</span><i class="bi bi-star-fill"></i>
+        <span>Fumigation</span><i class="bi bi-star-fill"></i>
+        <span>Mosquitoes</span><i class="bi bi-star-fill"></i>
+        <span>Snakes</span><i class="bi bi-star-fill"></i>
+        <span>Bird Proofing</span><i class="bi bi-star-fill"></i>
+        <span>Cockroaches</span><i class="bi bi-star-fill"></i>
+        <span>Termites</span><i class="bi bi-star-fill"></i>
+        <span>Rodents</span><i class="bi bi-star-fill"></i>
+        <span>Bed Bugs</span><i class="bi bi-star-fill"></i>
+        <span>Fumigation</span><i class="bi bi-star-fill"></i>
+        <span>Mosquitoes</span><i class="bi bi-star-fill"></i>
+        <span>Snakes</span><i class="bi bi-star-fill"></i>
+        <span>Bird Proofing</span><i class="bi bi-star-fill"></i>
+      </div>
+    </div>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="services section-pad cv">
+      <div class="container">
+        <div class="section-head reveal" data-reveal="up">
+          <div>
+            <span class="eyebrow eyebrow--dark"><i class="bi bi-star-fill"></i> What we treat</span>
+            <h2 class="section-title">Pest control services <span class="text-mark">for every kind of property</span></h2>
+          </div>
+          <a href="#" class="btn-outline-star">All Services <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card reveal" data-reveal="up">
+            <div class="service-card__img"><img src="https://images.pexels.com/photos/19294665/pexels-photo-19294665.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Close-up of a cockroach" loading="lazy" width="700" height="460"></div>
+            <div class="service-card__body">
+              <span class="service-card__num">01</span>
+              <span class="service-card__icon"><i class="bi bi-bug-fill"></i></span>
+              <h3>Cockroach Control</h3>
+              <p>Gel baiting and crack-and-crevice treatment that clears colonies at the source.</p>
+              <a href="#" class="service-card__link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-reveal="up" style="--d:.1s">
+            <div class="service-card__img"><img src="https://images.pexels.com/photos/69221/pexels-photo-69221.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Rat in a cage trap" loading="lazy" width="700" height="460"></div>
+            <div class="service-card__body">
+              <span class="service-card__num">02</span>
+              <span class="service-card__icon"><i class="bi bi-shield-shaded"></i></span>
+              <h3>Rodent Management</h3>
+              <p>Tamper-proof bait stations, proofing and monitoring for rats and mice.</p>
+              <a href="#" class="service-card__link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-reveal="up" style="--d:.2s">
+            <div class="service-card__img"><img src="https://images.pexels.com/photos/18087296/pexels-photo-18087296.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Wood damaged by boring insects" loading="lazy" width="700" height="460"></div>
+            <div class="service-card__body">
+              <span class="service-card__num">03</span>
+              <span class="service-card__icon"><i class="bi bi-tree-fill"></i></span>
+              <h3>Termite Protection</h3>
+              <p>Pre-construction soil treatment and barrier systems for existing buildings.</p>
+              <a href="#" class="service-card__link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-reveal="up">
+            <div class="service-card__img"><img src="https://images.pexels.com/photos/32055757/pexels-photo-32055757.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Technician fumigating a warehouse" loading="lazy" width="700" height="460"></div>
+            <div class="service-card__body">
+              <span class="service-card__num">04</span>
+              <span class="service-card__icon"><i class="bi bi-cloud-haze2-fill"></i></span>
+              <h3>Fumigation</h3>
+              <p>Structural, container and commodity fumigation for warehouses and exports.</p>
+              <a href="#" class="service-card__link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-reveal="up" style="--d:.1s">
+            <div class="service-card__img"><img src="https://images.pexels.com/photos/14512575/pexels-photo-14512575.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Close-up of a housefly" loading="lazy" width="700" height="460"></div>
+            <div class="service-card__body">
+              <span class="service-card__num">05</span>
+              <span class="service-card__icon"><i class="bi bi-wind"></i></span>
+              <h3>Flies &amp; Mosquitoes</h3>
+              <p>Fogging, larviciding and UV fly units for kitchens and outdoor areas.</p>
+              <a href="#" class="service-card__link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+          <article class="service-card reveal" data-reveal="up" style="--d:.2s">
+            <div class="service-card__img"><img src="https://images.pexels.com/photos/38680283/pexels-photo-38680283.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Paper wasp nest under roof eaves" loading="lazy" width="700" height="460"></div>
+            <div class="service-card__body">
+              <span class="service-card__num">06</span>
+              <span class="service-card__icon"><i class="bi bi-hexagon-fill"></i></span>
+              <h3>Wasps &amp; Bees</h3>
+              <p>Safe nest removal, with bee relocation wherever we can manage it.</p>
+              <a href="#" class="service-card__link">Read more <i class="bi bi-arrow-right"></i></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats cv">
+      <div class="stats__bg" style="background-image:url('https://images.pexels.com/photos/32055757/pexels-photo-32055757.jpeg?auto=compress&cs=tinysrgb&w=1600')"></div>
+      <div class="container position-relative">
+        <div class="stats__grid">
+          <div class="stat reveal" data-reveal="up">
+            <i class="bi bi-house-check-fill"></i>
+            <span class="stat__num"><span class="counter" data-target="3200">0</span>+</span>
+            <span class="stat__label">Properties protected</span>
+          </div>
+          <div class="stat reveal" data-reveal="up" style="--d:.1s">
+            <i class="bi bi-people-fill"></i>
+            <span class="stat__num"><span class="counter" data-target="45">0</span></span>
+            <span class="stat__label">Certified technicians</span>
+          </div>
+          <div class="stat reveal" data-reveal="up" style="--d:.2s">
+            <i class="bi bi-truck"></i>
+            <span class="stat__num"><span class="counter" data-target="18">0</span></span>
+            <span class="stat__label">Service vehicles</span>
+          </div>
+          <div class="stat reveal" data-reveal="up" style="--d:.3s">
+            <i class="bi bi-emoji-smile-fill"></i>
+            <span class="stat__num"><span class="counter" data-target="98">0</span>%</span>
+            <span class="stat__label">Client retention</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SECTORS / TABS ============ -->
+    <section class="sectors section-pad cv">
+      <div class="container">
+        <div class="text-center reveal" data-reveal="up">
+          <span class="eyebrow eyebrow--dark"><i class="bi bi-star-fill"></i> Who we serve</span>
+          <h2 class="section-title mx-auto">One team, <span class="text-mark">three sectors</span></h2>
+        </div>
+
+        <div class="sector-tabs reveal" data-reveal="up" role="tablist">
+          <button class="sector-tab active" data-tab="res" role="tab" aria-selected="true"><i class="bi bi-house-door-fill"></i> Residential</button>
+          <button class="sector-tab" data-tab="com" role="tab" aria-selected="false"><i class="bi bi-building-fill"></i> Commercial</button>
+          <button class="sector-tab" data-tab="ind" role="tab" aria-selected="false"><i class="bi bi-gear-fill"></i> Industrial</button>
+        </div>
+
+        <div class="sector-panels">
+          <div class="sector-panel active" id="tab-res" role="tabpanel">
+            <div class="row g-4 g-lg-5 align-items-center">
+              <div class="col-lg-6"><img class="sector-panel__img" src="https://images.pexels.com/photos/7031581/pexels-photo-7031581.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Modern family home with a garden" loading="lazy" width="900" height="600"></div>
+              <div class="col-lg-6">
+                <h3>Peace of mind at home</h3>
+                <p>From a once-off cockroach clear-out in Block 8 to quarterly termite inspections in Phakalane, we fit in around your family. Treatments are odour-light, and pets can usually return within hours.</p>
+                <ul class="check-list">
+                  <li>Full home inspection &amp; report</li>
+                  <li>Child &amp; pet-safe formulations</li>
+                  <li>90-day re-service guarantee</li>
+                  <li>Flexible weekend appointments</li>
+                </ul>
+                <a href="#" class="btn-star">Book a Home Visit <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="sector-panel" id="tab-com" role="tabpanel">
+            <div class="row g-4 g-lg-5 align-items-center">
+              <div class="col-lg-6"><img class="sector-panel__img" src="https://images.pexels.com/photos/7750129/pexels-photo-7750129.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Bright modern office space" loading="lazy" width="900" height="600"></div>
+              <div class="col-lg-6">
+                <h3>Protect your reputation</h3>
+                <p>Restaurants, hotels, offices and retail can't afford to see a pest in front of a customer. We service after hours and log every visit in a digital report that's ready for health inspections.</p>
+                <ul class="check-list">
+                  <li>After-hours service windows</li>
+                  <li>Health-inspection ready records</li>
+                  <li>Unmarked vehicles on request</li>
+                  <li>Dedicated account manager</li>
+                </ul>
+                <a href="#" class="btn-star">Request a Site Survey <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="sector-panel" id="tab-ind" role="tabpanel">
+            <div class="row g-4 g-lg-5 align-items-center">
+              <div class="col-lg-6"><img class="sector-panel__img" src="https://images.pexels.com/photos/37020717/pexels-photo-37020717.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Technician fogging a large outdoor area" loading="lazy" width="900" height="600"></div>
+              <div class="col-lg-6">
+                <h3>Built for compliance</h3>
+                <p>Warehouses, factories, mines and food processors need programmes that hold up under audit. We design, run and document pest management to HACCP, ISO 22000 and retailer standards.</p>
+                <ul class="check-list">
+                  <li>Mapped bait-station networks</li>
+                  <li>Trend analysis &amp; monthly reports</li>
+                  <li>Container &amp; silo fumigation</li>
+                  <li>Audit support on site</li>
+                </ul>
+                <a href="#" class="btn-star">Talk to Our Industrial Team <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="process section-pad cv">
+      <div class="container">
+        <div class="text-center reveal" data-reveal="up">
+          <span class="eyebrow"><i class="bi bi-star-fill"></i> How it works</span>
+          <h2 class="section-title section-title--light mx-auto">Four steps to a pest-free property</h2>
+        </div>
+        <div class="process__grid">
+          <div class="step reveal" data-reveal="up">
+            <span class="step__num">01</span>
+            <span class="step__icon"><i class="bi bi-telephone-inbound-fill"></i></span>
+            <h3>Call or book online</h3>
+            <p>Tell us what you're seeing and we'll confirm a slot, often for the same day.</p>
+          </div>
+          <div class="step reveal" data-reveal="up" style="--d:.12s">
+            <span class="step__num">02</span>
+            <span class="step__icon"><i class="bi bi-search"></i></span>
+            <h3>Inspection</h3>
+            <p>A technician identifies the species, finds where they're coming in and sizes the infestation.</p>
+          </div>
+          <div class="step reveal" data-reveal="up" style="--d:.24s">
+            <span class="step__num">03</span>
+            <span class="step__icon"><i class="bi bi-droplet-half"></i></span>
+            <h3>Targeted treatment</h3>
+            <p>Precise, low-toxicity products are applied exactly where the pests are.</p>
+          </div>
+          <div class="step reveal" data-reveal="up" style="--d:.36s">
+            <span class="step__num">04</span>
+            <span class="step__icon"><i class="bi bi-clipboard2-check-fill"></i></span>
+            <h3>Prevent &amp; follow up</h3>
+            <p>We proof the entry points, leave prevention tips and check back to confirm the problem is gone.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="pricing section-pad cv">
+      <div class="container">
+        <div class="text-center reveal" data-reveal="up">
+          <span class="eyebrow eyebrow--dark"><i class="bi bi-star-fill"></i> Transparent pricing</span>
+          <h2 class="section-title mx-auto">Simple plans, <span class="text-mark">priced in Pula</span></h2>
+          <p class="section-sub">Every price includes VAT and a callout within Gaborone. Bigger sites get a custom quote.</p>
+        </div>
+
+        <div class="pricing__grid">
+          <div class="price-card reveal" data-reveal="up">
+            <h3>Once-Off Treatment</h3>
+            <p class="price-card__desc">Clears a single pest problem in a home or flat.</p>
+            <div class="price-card__price"><span class="cur">P</span>650<small>/visit</small></div>
+            <ul>
+              <li><i class="bi bi-check-lg"></i> Up to 3-bedroom home</li>
+              <li><i class="bi bi-check-lg"></i> One pest type</li>
+              <li><i class="bi bi-check-lg"></i> 30-day guarantee</li>
+              <li class="off"><i class="bi bi-x-lg"></i> Scheduled follow-ups</li>
+            </ul>
+            <a href="#" class="btn-outline-star w-100 justify-content-center">Choose Plan</a>
+          </div>
+          <div class="price-card price-card--featured reveal" data-reveal="up" style="--d:.12s">
+            <span class="price-card__tag">Most popular</span>
+            <h3>Home Shield</h3>
+            <p class="price-card__desc">Year-round protection for your household.</p>
+            <div class="price-card__price"><span class="cur">P</span>380<small>/month</small></div>
+            <ul>
+              <li><i class="bi bi-check-lg"></i> Quarterly general treatment</li>
+              <li><i class="bi bi-check-lg"></i> Cockroaches, ants, spiders &amp; rodents</li>
+              <li><i class="bi bi-check-lg"></i> Free emergency call-backs</li>
+              <li><i class="bi bi-check-lg"></i> 90-day re-service guarantee</li>
+            </ul>
+            <a href="#" class="btn-star w-100 justify-content-center">Choose Plan</a>
+          </div>
+          <div class="price-card reveal" data-reveal="up" style="--d:.24s">
+            <h3>Business Pro</h3>
+            <p class="price-card__desc">Compliance-ready programme for commercial sites.</p>
+            <div class="price-card__price"><span class="cur">P</span>1,450<small>/month</small></div>
+            <ul>
+              <li><i class="bi bi-check-lg"></i> Monthly scheduled service</li>
+              <li><i class="bi bi-check-lg"></i> Bait-station network</li>
+              <li><i class="bi bi-check-lg"></i> Digital audit reports</li>
+              <li><i class="bi bi-check-lg"></i> Dedicated account manager</li>
+            </ul>
+            <a href="#" class="btn-outline-star w-100 justify-content-center">Choose Plan</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY US / CTA SPLIT ============ -->
+    <section class="why cv">
+      <div class="why__media">
+        <img src="https://images.pexels.com/photos/4098760/pexels-photo-4098760.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Technician disinfecting a bathroom" loading="lazy" width="1200" height="900">
+        <a href="#" class="why__play" aria-label="Play company video"><i class="bi bi-play-fill"></i></a>
+      </div>
+      <div class="why__content">
+        <div class="reveal" data-reveal="right">
+          <span class="eyebrow eyebrow--dark"><i class="bi bi-star-fill"></i> Why choose us</span>
+          <h2 class="section-title">The difference is in <span class="text-mark">the details</span></h2>
+          <div class="why__list">
+            <div class="why__item"><span><i class="bi bi-clock-history"></i></span><div><h4>On time, every time</h4><p>We give you a two-hour arrival window and an SMS when we're on the way.</p></div></div>
+            <div class="why__item"><span><i class="bi bi-flower1"></i></span><div><h4>Eco-conscious products</h4><p>Low-toxicity, targeted applications that are approved for use in Botswana.</p></div></div>
+            <div class="why__item"><span><i class="bi bi-award-fill"></i></span><div><h4>Guaranteed results</h4><p>If the pests come back within the guarantee period, so do we, at no charge.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="testimonials section-pad cv">
+      <div class="container">
+        <div class="row g-4 g-lg-5 align-items-center">
+          <div class="col-lg-4 reveal" data-reveal="left">
+            <span class="eyebrow eyebrow--dark"><i class="bi bi-star-fill"></i> Testimonials</span>
+            <h2 class="section-title">What our clients <span class="text-mark">say</span></h2>
+            <div class="rating-box">
+              <span class="rating-box__score">4.9</span>
+              <div>
+                <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i></div>
+                <small>Sample rating for prototype</small>
+              </div>
+            </div>
+            <div class="testi-nav">
+              <button type="button" data-bs-target="#testiCarousel" data-bs-slide="prev" aria-label="Previous"><i class="bi bi-arrow-left"></i></button>
+              <button type="button" data-bs-target="#testiCarousel" data-bs-slide="next" aria-label="Next"><i class="bi bi-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="col-lg-8 reveal" data-reveal="right">
+            <div id="testiCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="6000">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <figure class="testi-card">
+                    <i class="bi bi-quote testi-card__quote"></i>
+                    <blockquote>"Placeholder testimonial. A residential client describes a fast, tidy cockroach treatment and a technician who explained every step."</blockquote>
+                    <figcaption><span class="testi-card__avatar">TN</span><div><strong>Sample Client</strong><small>Homeowner, Phakalane</small></div></figcaption>
+                  </figure>
+                </div>
+                <div class="carousel-item">
+                  <figure class="testi-card">
+                    <i class="bi bi-quote testi-card__quote"></i>
+                    <blockquote>"Placeholder testimonial. A restaurant manager talks about after-hours service and inspection-ready reports."</blockquote>
+                    <figcaption><span class="testi-card__avatar">LM</span><div><strong>Sample Client</strong><small>Restaurant Manager, CBD</small></div></figcaption>
+                  </figure>
+                </div>
+                <div class="carousel-item">
+                  <figure class="testi-card">
+                    <i class="bi bi-quote testi-card__quote"></i>
+                    <blockquote>"Placeholder testimonial. A warehouse operations lead covers the rodent-monitoring programme and audit support."</blockquote>
+                    <figcaption><span class="testi-card__avatar">OB</span><div><strong>Sample Client</strong><small>Operations Lead, Gaborone West</small></div></figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ BLOG / TIPS ============ -->
+    <section class="blog section-pad cv">
+      <div class="container">
+        <div class="section-head reveal" data-reveal="up">
+          <div>
+            <span class="eyebrow eyebrow--dark"><i class="bi bi-star-fill"></i> Pest tips</span>
+            <h2 class="section-title">Latest from <span class="text-mark">our blog</span></h2>
+          </div>
+          <a href="#" class="btn-outline-star">View All <i class="bi bi-arrow-up-right"></i></a>
+        </div>
+        <div class="blog__grid">
+          <article class="post reveal" data-reveal="up">
+            <div class="post__img"><img src="https://images.pexels.com/photos/633881/pexels-photo-633881.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Wooden mousetrap with cheese" loading="lazy" width="700" height="460"><span class="post__date"><b>08</b>Oct</span></div>
+            <div class="post__body"><span class="post__cat">Rodents</span><h3><a href="#">5 signs you have rats in the roof before the rains</a></h3><a href="#" class="service-card__link">Read more <i class="bi bi-arrow-right"></i></a></div>
+          </article>
+          <article class="post reveal" data-reveal="up" style="--d:.12s">
+            <div class="post__img"><img src="https://images.pexels.com/photos/18087296/pexels-photo-18087296.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Wood damaged by insects" loading="lazy" width="700" height="460"><span class="post__date"><b>24</b>Sep</span></div>
+            <div class="post__body"><span class="post__cat">Termites</span><h3><a href="#">Why termite season in Botswana starts sooner than you'd expect</a></h3><a href="#" class="service-card__link">Read more <i class="bi bi-arrow-right"></i></a></div>
+          </article>
+          <article class="post reveal" data-reveal="up" style="--d:.24s">
+            <div class="post__img"><img src="https://images.pexels.com/photos/4894608/pexels-photo-4894608.jpeg?auto=compress&cs=tinysrgb&w=700" alt="Person in protective gear spraying a garden" loading="lazy" width="700" height="460"><span class="post__date"><b>11</b>Sep</span></div>
+            <div class="post__body"><span class="post__cat">Garden</span><h3><a href="#">A pet-safe approach to keeping ants out of the garden</a></h3><a href="#" class="service-card__link">Read more <i class="bi bi-arrow-right"></i></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA BAND ============ -->
+    <section class="cta-band cv">
+      <div class="container">
+        <div class="cta-band__inner reveal" data-reveal="up">
+          <div class="cta-band__icon"><i class="bi bi-headset"></i></div>
+          <div class="cta-band__text">
+            <h2>Got a pest emergency right now?</h2>
+            <p>Our rapid-response team covers Gaborone, Tlokweng, Mogoditshane and Phakalane around the clock.</p>
+          </div>
+          <a href="#" class="btn-dark-star"><i class="bi bi-telephone-fill"></i> +267 71 234 567</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer cv">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col footer__about">
+          <a class="brand brand--light" href="#">
+            <img src="assets/logo.png" alt="Star Pest Control logo" width="58" height="56" class="brand__logo" loading="lazy">
+            <span class="brand__text">Star<span>Pest Control</span></span>
+          </a>
+          <p>Commercial, residential and industrial pest control based in Gaborone, Botswana.</p>
+          <ul class="footer__social">
+            <li><a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a></li>
+            <li><a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul class="footer__links">
+            <li><a href="#">Cockroach Control</a></li>
+            <li><a href="#">Rodent Management</a></li>
+            <li><a href="#">Termite Protection</a></li>
+            <li><a href="#">Fumigation</a></li>
+            <li><a href="#">Bed Bug Treatment</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <ul class="footer__contact">
+            <li><i class="bi bi-geo-alt-fill"></i> Plot 4471, Commerce Park, Gaborone</li>
+            <li><i class="bi bi-telephone-fill"></i> +267 71 234 567</li>
+            <li><i class="bi bi-phone-fill"></i> +267 3 900 000</li>
+            <li><i class="bi bi-envelope-fill"></i> hello@starpest-demo.co.bw</li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Newsletter</h4>
+          <p>Get seasonal pest alerts and prevention tips.</p>
+          <form class="footer__form" onsubmit="event.preventDefault(); this.reset(); window.showToast && showToast('Subscribed! (prototype)');">
+            <label for="nlEmail" class="visually-hidden">Email</label>
+            <input type="email" id="nlEmail" placeholder="Your email" required>
+            <button type="submit" aria-label="Subscribe"><i class="bi bi-send-fill"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; <span id="year">2026</span> Star Pest Control. Prototype website. All contact details are placeholders.</p>
+        <ul><li><a href="#">Privacy</a></li><li><a href="#">Terms</a></li></ul>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+  <div class="toast-msg" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Prototype: all nav/CTA links are display-only -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
